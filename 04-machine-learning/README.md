@@ -6,7 +6,7 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 
 | # | Notebook | Temas |
 |---|---|---|
-| 01 | `01-flujo-ml-y-evaluacion` | CRISP-DM, tipos de tarea, entrenamiento/validación/test, validación cruzada, búsqueda de hiperparámetros, métricas de clasificación y regresión |
+| 01 | [Flujo de ML y evaluación](01-flujo-ml-y-evaluacion.ipynb) | CRISP-DM, tipos de tarea, entrenamiento/validación/test, validación cruzada, búsqueda de hiperparámetros, métricas de clasificación y regresión |
 | 02 | [Reducción de dimensionalidad](02-reduccion-dimensionalidad.ipynb) | PCA vs LDA vs t-SNE, SVD, NMF, UMAP |
 | 03 | `03-seleccion-atributos` | Métodos filtro vs wrapper, correlación, información mutua, selección paso a paso, importancia de atributos |
 | 04 | `04-clustering-jerarquico` | Dendrogramas, tipos de enlace, métodos aglomerativos y divisivos, distancias para datos binarios |
@@ -20,3 +20,4 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 | 12 | `12-stacking-y-cascading` | Combinación de modelos de base diferente |
 | 13 | `13-sesgo-algoritmico` | Criterios de equidad, teoremas de imposibilidad, corrección antes, durante y después del entrenamiento |
 | 14 | `14-interpretabilidad` | Importancia por permutación, valores de Shapley, destilación de modelos |
+| 15 | `15-series-temporales` | Componentes (tendencia, estacionalidad), estacionariedad, validación temporal, modelos de predicción |
