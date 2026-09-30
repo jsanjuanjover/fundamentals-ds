@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos locales y material del curso (los notebooks cargan datos públicos)
+data/
+*.csv
+*.pdf
+
+# Editores / SO
+.vscode/
+.DS_Store
