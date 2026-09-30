@@ -9,7 +9,7 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 | 01 | [Flujo de ML y evaluación](01-flujo-ml-y-evaluacion.ipynb) | CRISP-DM, tipos de tarea, entrenamiento/validación/test, validación cruzada, búsqueda de hiperparámetros, métricas de clasificación y regresión |
 | 02 | [Reducción de dimensionalidad](02-reduccion-dimensionalidad.ipynb) | PCA vs LDA vs t-SNE, SVD, NMF, UMAP |
 | 03 | [Selección de atributos](03-seleccion-atributos.ipynb) | Métodos filtro vs wrapper, correlación, información mutua, selección paso a paso, importancia de atributos |
-| 04 | `04-clustering-jerarquico` | Dendrogramas, tipos de enlace, métodos aglomerativos y divisivos, distancias para datos binarios |
+| 04 | [Clustering jerárquico](04-clustering-jerarquico.ipynb) | Dendrogramas, tipos de enlace, métodos aglomerativos y divisivos, distancias para datos binarios |
 | 05 | `05-kmeans-y-derivados` | k-means, elección de *k* (codo, silueta), k-medoids, fuzzy C-means, Canopy |
 | 06 | `06-clustering-densidad` | DBSCAN, HDBSCAN, ruido, métricas de calidad del agrupamiento |
 | 07 | `07-knn` | k vecinos más cercanos, elección de *k*, distancias y escalado |
