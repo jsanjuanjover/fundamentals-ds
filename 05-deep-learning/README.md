@@ -12,6 +12,6 @@ Redes neuronales con PyTorch: de la red densa a los modelos generativos. Los not
 | 04 | [Transfer learning](04-transfer-learning.ipynb) | Arquitecturas CNN profundas, modelos preentrenados, extracción de características y *fine-tuning* |
 | 05 | [Autoencoders](05-autoencoders.ipynb) | Codificador y decodificador, espacio latente, error de reconstrucción, detección de anomalías |
 | 06 | [Redes recurrentes](06-redes-recurrentes.ipynb) | RNN, LSTM y GRU, series temporales multivariantes, predicción a varios pasos |
-| 07 | `07-atencion-y-transformers` | Mecanismo de atención, autoatención, codificación posicional, arquitectura del *transformer*, comparación con LSTM |
+| 07 | [Atención y transformers](07-atencion-y-transformers.ipynb) | Mecanismo de atención, autoatención, codificación posicional, arquitectura del *transformer*, comparación con LSTM |
 | 08 | `08-gan` | Generador y discriminador, entrenamiento adversario, inestabilidad |
 | 09 | `09-modelos-de-difusion` | Proceso directo (ruido) e inverso (eliminación de ruido), DDPM, comparación con las GAN |
