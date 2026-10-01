@@ -2,11 +2,11 @@
 
 Estadística descriptiva e inferencial en Python (`scipy.stats`, `statsmodels`).
 
-## Notebooks previstos
+## Notebooks
 
 | # | Notebook | Temas |
 |---|---|---|
-| 01 | `01-estadistica-descriptiva` | Media vs mediana, varianza (corrección de Bessel), asimetría, z-score |
+| 01 | [Estadística descriptiva](01-estadistica-descriptiva.ipynb) | Media vs mediana, varianza (corrección de Bessel), asimetría, z-score |
 | 02 | `02-distribuciones-probabilidad` | Normal, binomial, Poisson, t, χ²; comprobar la normalidad (gráficos Q-Q, Shapiro-Wilk) |
 | 03 | `03-muestreo-y-tlc` | Técnicas de muestreo, teorema central del límite |
 | 04 | `04-intervalos-confianza` | Intervalos de confianza para medias y proporciones |
