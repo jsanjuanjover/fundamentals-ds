@@ -24,9 +24,13 @@ Los notebooks son autocontenidos: cada uno repite el preprocesamiento que necesi
 
 ## Cómo ejecutar los notebooks
 
-Todos los datasets se cargan desde fuentes públicas (scikit-learn, seaborn, OpenML, Hugging Face o URLs públicas), así que no hace falta ningún dato local.
+Todos los datasets se cargan desde fuentes públicas (scikit-learn, seaborn, OpenML, torchvision, Hugging Face o URLs públicas), así que no hace falta ningún dato local. Los que se descargan (por ejemplo, las imágenes de deep learning) se guardan en una carpeta `data/` junto al notebook, excluida del repositorio.
 
 ```bash
 uv sync
 uv run jupyter lab
 ```
+
+`uv sync` instala todas las dependencias del `pyproject.toml`, incluidos PyTorch y torchvision. En Linux, PyTorch se instala con soporte para CUDA, así que la primera instalación descarga varios GB y puede tardar unos minutos.
+
+Los notebooks de deep learning funcionan en CPU, pero son mucho más rápidos con una GPU NVIDIA (se usa automáticamente si está disponible). La primera vez que se ejecuta cada uno descarga su dataset y, si los usa, los pesos preentrenados; las ejecuciones siguientes reutilizan lo descargado.
