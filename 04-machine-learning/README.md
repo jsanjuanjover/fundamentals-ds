@@ -13,7 +13,7 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 | 05 | [k-means y derivados](05-kmeans-y-derivados.ipynb) | k-means, elección de *k* (codo, silueta), k-medoids, fuzzy C-means, Canopy |
 | 06 | [Clustering por densidad](06-clustering-densidad.ipynb) | DBSCAN, HDBSCAN, ruido, métricas de calidad del agrupamiento |
 | 07 | [k vecinos más cercanos](07-knn.ipynb) | k vecinos más cercanos, elección de *k*, distancias y escalado |
-| 08 | `08-arboles-decision` | Árboles de clasificación y regresión, entropía y ganancia de información, poda, extrapolación |
+| 08 | [Árboles de decisión](08-arboles-decision.ipynb) | Árboles de clasificación y regresión, entropía y ganancia de información, poda, extrapolación |
 | 09 | `09-svm` | Margen e hiperplano separador, funciones kernel, parámetros `C` y `gamma` |
 | 10 | `10-bagging-y-random-forest` | Combinación paralela, *bootstrap*, Random Forest |
 | 11 | `11-boosting` | Combinación secuencial, AdaBoost, Gradient Boosting |
