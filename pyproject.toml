@@ -11,5 +11,7 @@ dependencies = [
     "pandas>=3.0.6",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "shap>=0.52.0",
+    "statsmodels>=0.15.0",
     "umap-learn>=0.5.12",
 ]
