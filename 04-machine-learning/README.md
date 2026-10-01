@@ -16,7 +16,7 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 | 08 | [Árboles de decisión](08-arboles-decision.ipynb) | Árboles de clasificación y regresión, entropía y ganancia de información, poda, extrapolación |
 | 09 | [Máquinas de soporte vectorial](09-svm.ipynb) | Margen e hiperplano separador, funciones kernel, parámetros `C` y `gamma` |
 | 10 | [Bagging y Random Forest](10-bagging-y-random-forest.ipynb) | Combinación paralela, *bootstrap*, Random Forest, error *out-of-bag*, `max_features` |
-| 11 | `11-boosting` | Combinación secuencial, AdaBoost, Gradient Boosting |
+| 11 | [Boosting](11-boosting.ipynb) | Combinación secuencial, AdaBoost, Gradient Boosting, tasa de aprendizaje, parada temprana, sensibilidad al ruido |
 | 12 | `12-stacking-y-cascading` | Combinación de modelos de base diferente |
 | 13 | `13-sesgo-algoritmico` | Criterios de equidad, teoremas de imposibilidad, corrección antes, durante y después del entrenamiento |
 | 14 | `14-interpretabilidad` | Importancia por permutación, valores de Shapley, destilación de modelos |
