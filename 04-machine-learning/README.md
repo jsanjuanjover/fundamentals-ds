@@ -11,7 +11,7 @@ Aprendizaje automático clásico con scikit-learn: flujo de trabajo, evaluación
 | 03 | [Selección de atributos](03-seleccion-atributos.ipynb) | Métodos filtro vs wrapper, correlación, información mutua, selección paso a paso, importancia de atributos |
 | 04 | [Clustering jerárquico](04-clustering-jerarquico.ipynb) | Dendrogramas, tipos de enlace, métodos aglomerativos y divisivos, distancias para datos binarios |
 | 05 | [k-means y derivados](05-kmeans-y-derivados.ipynb) | k-means, elección de *k* (codo, silueta), k-medoids, fuzzy C-means, Canopy |
-| 06 | `06-clustering-densidad` | DBSCAN, HDBSCAN, ruido, métricas de calidad del agrupamiento |
+| 06 | [Clustering por densidad](06-clustering-densidad.ipynb) | DBSCAN, HDBSCAN, ruido, métricas de calidad del agrupamiento |
 | 07 | `07-knn` | k vecinos más cercanos, elección de *k*, distancias y escalado |
 | 08 | `08-arboles-decision` | Árboles de clasificación y regresión, entropía y ganancia de información, poda, extrapolación |
 | 09 | `09-svm` | Margen e hiperplano separador, funciones kernel, parámetros `C` y `gamma` |
