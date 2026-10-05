@@ -14,4 +14,4 @@ Redes neuronales con PyTorch: de la red densa a los modelos generativos. Los not
 | 06 | [Redes recurrentes](06-redes-recurrentes.ipynb) | RNN, LSTM y GRU, gradiente que se desvanece, ventanas deslizantes y líneas base ingenuas, series multivariantes, predicción a varios pasos, atención sobre los estados ocultos |
 | 07 | [Atención y transformers](07-atencion-y-transformers.ipynb) | Mecanismo de atención, autoatención multicabeza, máscaras causal y de *padding*, codificación posicional, arquitectura del *transformer*, modelo de lenguaje y perplejidad, comparación con LSTM |
 | 08 | [GAN](08-gan.ipynb) | Generador y discriminador, juego minimax y pérdida no saturante, DCGAN, inestabilidad y colapso de modos, evaluación (distancia de Fréchet, diversidad), interpolación latente |
-| 09 | `09-modelos-de-difusion` | Proceso directo (ruido) e inverso (eliminación de ruido), DDPM, comparación con las GAN |
+| 09 | [Modelos de difusión](09-modelos-de-difusion.ipynb) | Proceso directo (ruido) e inverso (eliminación de ruido), DDPM, predicción del ruido, U-Net con codificación del paso, muestreo acelerado con DDIM, comparación con las GAN |
