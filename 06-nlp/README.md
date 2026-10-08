@@ -2,11 +2,11 @@
 
 Procesamiento del lenguaje natural, desde las representaciones clásicas de texto hasta los transformers (Hugging Face). Las arquitecturas generales (recurrentes, atención, *transformers*) se explican en [05 · Deep Learning](../05-deep-learning/); aquí se aplican al texto.
 
-## Notebooks previstos
+## Notebooks
 
 | # | Notebook | Temas |
 |---|---|---|
-| 01 | `01-preprocesamiento-de-texto` | Tokenización, normalización, etiquetado gramatical (PoS), lematización y *stemming*, palabras vacías, ley de Zipf |
+| 01 | [Preprocesamiento de texto](01-preprocesamiento-de-texto.ipynb) | Tokenización, normalización, etiquetado gramatical (PoS), lematización y *stemming*, palabras vacías, ley de Zipf |
 | 02 | `02-n-gramas-y-colocaciones` | N-gramas, colocaciones, información mutua puntual (PMI), razón de verosimilitud, términos compuestos |
 | 03 | `03-representacion-vectorial-tfidf` | Bolsa de palabras, TF-IDF, similitud del coseno entre documentos |
 | 04 | `04-embeddings-de-palabras` | Word2Vec, GloVe, distancias semánticas, analogías, embeddings preentrenados |
