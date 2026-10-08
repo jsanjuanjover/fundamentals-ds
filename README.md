@@ -31,6 +31,6 @@ uv sync
 uv run jupyter lab
 ```
 
-`uv sync` instala todas las dependencias del `pyproject.toml`, incluidos PyTorch y torchvision. En Linux, PyTorch se instala con soporte para CUDA, así que la primera instalación descarga varios GB y puede tardar unos minutos.
+`uv sync` instala todas las dependencias del `pyproject.toml`, incluidos PyTorch y torchvision. En Linux, PyTorch se instala con soporte para CUDA, así que la primera instalación descarga varios GB y puede tardar unos minutos. También instala el modelo de inglés de spaCy (`en_core_web_sm`); los recursos de NLTK (tokenizador, etiquetador, WordNet, palabras vacías) los descarga cada notebook de NLP la primera vez que se ejecuta.
 
 Los notebooks de deep learning funcionan en CPU, pero son mucho más rápidos con una GPU NVIDIA (se usa automáticamente si está disponible). La primera vez que se ejecuta cada uno descarga su dataset y, si los usa, los pesos preentrenados; las ejecuciones siguientes reutilizan lo descargado.
