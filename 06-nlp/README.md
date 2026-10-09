@@ -7,7 +7,7 @@ Procesamiento del lenguaje natural, desde las representaciones clásicas de text
 | # | Notebook | Temas |
 |---|---|---|
 | 01 | [Preprocesamiento de texto](01-preprocesamiento-de-texto.ipynb) | Tokenización, normalización, etiquetado gramatical (PoS), lematización y *stemming*, palabras vacías, ley de Zipf |
-| 02 | `02-n-gramas-y-colocaciones` | N-gramas, colocaciones, información mutua puntual (PMI), razón de verosimilitud, términos compuestos |
+| 02 | [N-gramas y colocaciones](02-n-gramas-y-colocaciones.ipynb) | N-gramas, colocaciones, información mutua puntual (PMI), razón de verosimilitud, términos compuestos |
 | 03 | `03-representacion-vectorial-tfidf` | Bolsa de palabras, TF-IDF, similitud del coseno entre documentos |
 | 04 | `04-embeddings-de-palabras` | Word2Vec, GloVe, distancias semánticas, analogías, embeddings preentrenados |
 | 05 | `05-deteccion-de-temas` | LDA, similitud semántica con WordNet y ConceptNet |
