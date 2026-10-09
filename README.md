@@ -24,13 +24,13 @@ Los notebooks son autocontenidos: cada uno repite el preprocesamiento que necesi
 
 ## Cómo ejecutar los notebooks
 
-Todos los datasets se cargan desde fuentes públicas (scikit-learn, seaborn, OpenML, torchvision, Hugging Face o URLs públicas), así que no hace falta ningún dato local. Los que se descargan (por ejemplo, las imágenes de deep learning) se guardan en una carpeta `data/` junto al notebook, excluida del repositorio.
+Todos los datasets se cargan desde fuentes públicas (scikit-learn, seaborn, OpenML, torchvision, Hugging Face o URLs públicas), así que no hace falta ningún dato local. Los que se descargan (por ejemplo, las imágenes de deep learning, o los vectores GloVe y las relaciones de ConceptNet de NLP) se guardan en una carpeta `data/` junto al notebook, excluida del repositorio.
 
 ```bash
 uv sync
 uv run jupyter lab
 ```
 
-`uv sync` instala todas las dependencias del `pyproject.toml`, incluidos PyTorch y torchvision. En Linux, PyTorch se instala con soporte para CUDA, así que la primera instalación descarga varios GB y puede tardar unos minutos. También instala el modelo de inglés de spaCy (`en_core_web_sm`); los recursos de NLTK (tokenizador, etiquetador, WordNet, palabras vacías) los descarga cada notebook de NLP la primera vez que se ejecuta.
+`uv sync` instala todas las dependencias del `pyproject.toml`, incluidos PyTorch y torchvision. En Linux, PyTorch se instala con soporte para CUDA, así que la primera instalación descarga varios GB y puede tardar unos minutos. También instala el modelo de inglés de spaCy (`en_core_web_sm`); los recursos de NLTK (tokenizador, etiquetador, WordNet, palabras vacías, léxicos de sentimiento) los descarga cada notebook de NLP la primera vez que se ejecuta.
 
 Los notebooks de deep learning funcionan en CPU, pero son mucho más rápidos con una GPU NVIDIA (se usa automáticamente si está disponible). La primera vez que se ejecuta cada uno descarga su dataset y, si los usa, los pesos preentrenados; las ejecuciones siguientes reutilizan lo descargado.
