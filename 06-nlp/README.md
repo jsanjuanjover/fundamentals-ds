@@ -12,7 +12,7 @@ Procesamiento del lenguaje natural, desde las representaciones clásicas de text
 | 04 | [Embeddings de palabras](04-embeddings-de-palabras.ipynb) | Word2Vec, GloVe, distancias semánticas, analogías, embeddings preentrenados |
 | 05 | [Detección de temas](05-deteccion-de-temas.ipynb) | LDA, similitud semántica con WordNet y ConceptNet, comparación con la similitud de los embeddings |
 | 06 | [Clasificación de texto](06-clasificacion-de-texto.ipynb) | TF-IDF con regresión logística, Naive Bayes, SVM y Random Forest; evaluación (curva ROC, métricas por clase) |
-| 07 | `07-analisis-de-sentimientos` | Componentes de una opinión (objetivo, aspecto, polaridad, autor), léxicos de sentimiento, análisis por aspectos |
+| 07 | [Análisis de sentimientos](07-analisis-de-sentimientos.ipynb) | Componentes de una opinión (objetivo, aspecto, polaridad, autor), léxicos de sentimiento, análisis por aspectos |
 | 08 | `08-sentimientos-con-deep-learning` | BiLSTM, embeddings contextuales de BERT, comparación con el modelo clásico |
 | 09 | `09-traduccion-automatica` | Codificador-decodificador (*seq2seq*), embeddings preentrenados, evaluación de la traducción |
 | 10 | `10-modelos-de-lenguaje-preentrenados` | BERT y modelos fundacionales con Hugging Face, completar huecos, embeddings contextuales, *fine-tuning*, eficiencia |
